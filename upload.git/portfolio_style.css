@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%
+  background: linear-gradient(white, pink);
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 6rem;
+}
+
+#Main {
+  display: inline-block;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+#Contact {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+#Projects {
+  font-size: 4rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+footer {
+  font-size: 4rem;
+  padding-top: 3rem;
+}

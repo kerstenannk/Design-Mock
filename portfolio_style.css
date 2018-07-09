@@ -1,0 +1,111 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%
+}
+
+.Container {
+  position: relative
+  text-align: center;
+}
+
+.top-left {
+  font-family: 'Pacifico', cursive;
+  font-size: 21.5rem;
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+  padding-top: 0rem;
+  margin-top: 0rem;
+}
+
+.middle img {
+  display:inline-block;
+  text-align: left;
+  padding-right: 2rem;
+  padding-top: 14rem;
+  padding-bottom: 0rem;
+  padding-left: 5rem;
+  width: 100%;
+}
+
+.middle p {
+  display: inline-block;
+  text-align: left;
+  padding-left: 5rem;
+  padding-top: 16rem;
+  padding-bottom: 0rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.middle ul {
+  padding-left: 5rem;
+  padding-top: 22rem;
+  padding-bottom: 0rem;
+  padding-right: 2rem;
+}
+
+.middle {
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+  display: inline;
+  display: inline-block;
+  position: absolute;
+  bottom: -130rem;
+  left: 1rem;
+  margin-bottom: 1rem;
+  padding: 10rem;
+  display: flex;
+}
+
+a {
+  color:#F10C8D;
+}
+
+a:link {
+  color:#F10C8D;
+  list-style-type: none;
+  text-decoration: none;
+}
+a:visited {
+  color:purple;
+}
+a:hover {
+  color:gray;
+}
+a:active {
+  color:black;
+}
+
+.bottom-left {
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  color:#F10C8D;
+  font-size: 10rem;
+  bottom: -150rem;
+  left: 5rem;
+}
+
+.links {
+  margin: 0 2rem 0 2rem;
+}
+
+ul li .bottom-left {
+  padding: 10rem;
+}
+
+.divider {
+    width: 10rem;
+    height: 0;
+    display:inline-block;
+}
+
+#project {
+color:  #F10C8D;
+}
